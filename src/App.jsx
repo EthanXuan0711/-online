@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import './App.css'
+import { Analytics } from '@vercel/analytics/react'
 
 /* =============================================
    PARTICLE CANVAS COMPONENT
@@ -566,6 +567,7 @@ function App() {
           </div>
         </div>
       </footer>
+      <Analytics />
     </>
   )
 }
